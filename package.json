@@ -1,0 +1,39 @@
+{
+  "name": "postcss-hydrogencss-cssmodules",
+  "version": "0.1.0",
+  "description": "PostCSS plugin to transform declarations into css modules composes using hydrogencss",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "hydrogencss",
+    "css modules"
+  ],
+  "author": "Ed Moore <eddie.moore@gmail.com>",
+  "license": "MIT",
+  "repository": "eddiemoore/postcss-hydrogencss-cssmodules",
+  "bugs": {
+    "url": "https://github.com/eddiemoore/postcss-hydrogencss-cssmodules/issues"
+  },
+  "homepage": "https://github.com/eddiemoore/postcss-hydrogencss-cssmodules",
+  "dependencies": {
+    "postcss": "^6.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^20.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    },
+    "rules": {
+      "indent": [2, 2]
+    }
+  }
+}
