@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/eddiemoore/postcss-hydrogencss-cssmodules",
   "dependencies": {
-    "postcss": "^6.0.1"
+    "postcss": "^7.0.31"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
